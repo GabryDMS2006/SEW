@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+
+<etapa>
+    <nombre_Etapa>Falset-Costa Daurada</nombre_Etapa>
+    <num_Etapa>5</num_Etapa>
+    <longitud_Etapa unidadLongitud="Km">173,3</longitud_Etapa>
+    <fecha>26/08/2026</fecha>
+    <tiempo_Ganador>03h 47' 02''</tiempo_Ganador>
+    <velocidad_Media_Ganador unidadVelocidadMedia="Km/h">45,80</velocidad_Media_Ganador>
+    <desnivel unidadDesnivel="m">1.690</desnivel>
+    <ciudad_Inicio>Falset-Costa Daurada</ciudad_Inicio>
+    <ciudad_Fin>Roquetes. Terres De L'Ebre</ciudad_Fin>
+
+    <tipo_Etapa tipo="media_montaña" /><!-- ONDULADA-->
+
+    <referencias>
+
+        <referencia>https://www.turismefalset.cat/costa-daurada/</referencia>
+        <referencia>https://www.catalunya.com/es/continguts/territori/roquetes-2-1-572686</referencia>
+        <referencia>https://www.ebre.com/es/roquetes/ </referencia>
+
+    </referencias>
+
+    <fotos>
+
+        <foto>../multimedia/ciclistas.jpg</foto>
+        <foto> ../multimedia/imagenGandaor.jpg </foto>
+
+    </fotos>
+
+    <videos>
+
+        <video>../multimedia/LaRuta2026.mp4</video>
+        <video>../multimedia/Etapa5Highlights.mp4</video>
+
+    </videos>
+
+    <sonidos>
+
+        <sonido>../multimedia/Etapa5_Podcast.mp3</sonido>
+        <sonido>../multimedia/LaRuta2026_Etapa5.mp3</sonido>
+
+    </sonidos>
+
+
+    <lugar_Salida>
+
+        <coordenadas_geograficas>
+
+            <longitud unidadLongitud="grados">0,791409</longitud>
+            <latitud unidadLatitud="grados">41,121371</latitud>
+            <altitud unidadAltitud="m">267</altitud>
+
+        </coordenadas_geograficas>
+
+    </lugar_Salida>
+
+    <lugar_Meta>
+
+        <coordenadas_geograficas>
+
+            <longitud unidadLongitud="grados">0,4999001</longitud>
+            <latitud unidadLatitud="grados">40,824104</latitud>
+            <altitud unidadAltitud="m">22</altitud>
+
+        </coordenadas_geograficas>
+
+    </lugar_Meta>
+
+    <hitos_Importantes>
+
+        <puerto_montaña nombre="Puerto de Paüls" categoria="tercera">
+
+            <coordenadas_geograficas>
+
+                <longitud>0,4018</longitud>
+                <latitud>40,9221</latitud>
+                <altitud>382</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">149</distancia>
+
+        </puerto_montaña>
+
+        <sprint_intermedio nombre="Tivenys">
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.510883</longitud>
+                <latitud unidadLatitud="grados">40.904420</latitud>
+                <altitud unidadAltitud="m">12</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">114.7</distancia>
+
+        </sprint_intermedio>
+
+    </hitos_Importantes>
+
+    <puntos_Anónimos>
+
+        <puntoAnónimo nombre="Els Guiamets Reservoir">
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.756641</longitud>
+                <latitud unidadLatitud="grados"> 41.100820</latitud>
+                <altitud unidadAltitud="m">217</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">5.33</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.704074</longitud>
+                <latitud unidadLatitud="grados"> 41.113761</latitud>
+                <altitud unidadAltitud="m">82</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">10.6</distancia>
+        </puntoAnónimo>
+        <puntoAnónimo nombre="Móra la Nova">
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.650397</longitud>
+                <latitud unidadLatitud="grados"> 41.099806</latitud>
+                <altitud unidadAltitud="m">36</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">16</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.663441</longitud>
+                <latitud unidadLatitud="grados"> 41.069424</latitud>
+                <altitud unidadAltitud="m">29</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">19.8</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.630273</longitud>
+                <latitud unidadLatitud="grados"> 41.039276</latitud>
+                <altitud unidadAltitud="m">25</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">25</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.603687</longitud>
+                <latitud unidadLatitud="grados"> 41.002996</latitud>
+                <altitud unidadAltitud="m">146</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">31.1</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.635254</longitud>
+                <latitud unidadLatitud="grados"> 40.978148</latitud>
+                <altitud unidadAltitud="m">146</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">35.2</distancia>
+        </puntoAnónimo>
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.657454</longitud>
+                <latitud unidadLatitud="grados"> 40.932931</latitud>
+                <altitud unidadAltitud="m">201</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">40.8</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.672423</longitud>
+                <latitud unidadLatitud="grados">40.898454</latitud>
+                <altitud unidadAltitud="m">246</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">44.9</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo nombre="El Perelló">
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.715669</longitud>
+                <latitud unidadLatitud="grados"> 40.877400</latitud>
+                <altitud unidadAltitud="m">128</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">50.2</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.710915</longitud>
+                <latitud unidadLatitud="grados"> 40.841410</latitud>
+                <altitud unidadAltitud="m">71</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">55.0</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.689015</longitud>
+                <latitud unidadLatitud="grados"> 40.803100</latitud>
+                <altitud unidadAltitud="m">24</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">60.1</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.696608</longitud>
+                <latitud unidadLatitud="grados"> 40.792167</latitud>
+                <altitud unidadAltitud="m">0</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">61.8</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.711227</longitud>
+                <latitud unidadLatitud="grados"> 40.729988</latitud>
+                <altitud unidadAltitud="m">0</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">69.8</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.69046</longitud>
+                <latitud unidadLatitud="grados"> 40.717604</latitud>
+                <altitud unidadAltitud="m">0</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">74.8</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.607911</longitud>
+                <latitud unidadLatitud="grados"> 40.703949</latitud>
+                <altitud unidadAltitud="m">2</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">82.5</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.589370</longitud>
+                <latitud unidadLatitud="grados"> 40.708154</latitud>
+                <altitud unidadAltitud="m">3</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">84.2</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo nombre="Amposta">
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.579744</longitud>
+                <latitud unidadLatitud="grados"> 40.706084</latitud>
+                <altitud unidadAltitud="m">8</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">85.5</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.525004</longitud>
+                <latitud unidadLatitud="grados"> 40.774904</latitud>
+                <altitud unidadAltitud="m">3</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">95.0</distancia>
+
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.506537</longitud>
+                <latitud unidadLatitud="grados"> 40.805417</latitud>
+                <altitud unidadAltitud="m">5</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">100.0</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.522999</longitud>
+                <latitud unidadLatitud="grados"> 40.858282</latitud>
+                <altitud unidadAltitud="m">12</altitud>
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">108</distancia>
+        </puntoAnónimo>
+
+        <puntoAnónimo nombre="Som Pass">
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.499953</longitud>
+                <latitud unidadLatitud="grados">40.930185</latitud>
+                <altitud unidadAltitud="m">15</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">116</distancia>
+
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.524735</longitud>
+                <latitud unidadLatitud="grados">40.980620</latitud>
+                <altitud unidadAltitud="m">18</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">128</distancia>
+
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.505087</longitud>
+                <latitud unidadLatitud="grados">41.013231</latitud>
+                <altitud unidadAltitud="m">182</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">134</distancia>
+
+        </puntoAnónimo>
+
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.471329</longitud>
+                <latitud unidadLatitud="grados">40.999666</latitud>
+                <altitud unidadAltitud="m">116</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">138</distancia>
+
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.445262</longitud>
+                <latitud unidadLatitud="grados">40.959229</latitud>
+                <altitud unidadAltitud="m">154</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">144</distancia>
+
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.405823</longitud>
+                <latitud unidadLatitud="grados">40.925881</latitud>
+                <altitud unidadAltitud="m">239</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">152</distancia>
+
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.488812</longitud>
+                <latitud unidadLatitud="grados">40.909810</latitud>
+                <altitud unidadAltitud="m">20</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">160</distancia>
+
+        </puntoAnónimo>
+
+        <puntoAnónimo>
+
+            <coordenadas_geograficas>
+
+                <longitud unidadLongitud="grados">0.513930</longitud>
+                <latitud unidadLatitud="grados">40.846612</latitud>
+                <altitud unidadAltitud="m">17</altitud>
+
+            </coordenadas_geograficas>
+
+            <distancia unidadDistancia="Km">168</distancia>
+
+        </puntoAnónimo>
+
+
+    </puntos_Anónimos>
+
+    <clasificacion_Etapa>
+
+        <primero>
+            <ciclista>James Brennan</ciclista>
+        </primero>
+
+        <segundo>
+            <ciclista>Jordi Meeus</ciclista>
+            <diferencia>0</diferencia>
+        </segundo>
+
+        <tercero>
+            <ciclista> Vincenzo Albanese</ciclista>
+            <diferencia>0</diferencia>
+        </tercero>
+
+    </clasificacion_Etapa>
+
+    <clasificacion_General>
+
+        <primero>
+            <ciclista>Tradej Pogačar</ciclista>
+        </primero>
+
+        <segundo>
+            <ciclista>Primož Roglič</ciclista>
+            <diferencia>0:03:21</diferencia>
+        </segundo>
+
+        <tercero>
+            <ciclista> Enric Mas</ciclista>
+            <diferencia>0:03:32</diferencia>
+        </tercero>
+
+    </clasificacion_General>
+
+    <clasificacion_Equipos>
+
+        <primerEquipo>
+
+            <equipo>UAE Team Emirate XRG</equipo>
+
+        </primerEquipo>
+
+        <segundoEquipo>
+
+            <equipo>Decathlon CMA CGM Team</equipo>
+            <diferencia>0:06:20s</diferencia>
+
+        </segundoEquipo>
+
+        <tercerEquipo>
+
+            <equipo>Team Visma | Lease a Bike</equipo>
+            <diferencia>0:10:26</diferencia>
+
+        </tercerEquipo>
+    </clasificacion_Equipos>
+
+</etapa>

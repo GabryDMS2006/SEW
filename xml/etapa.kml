@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="rojo">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="verde">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="azul">
+      <IconStyle>
+        <color>ffff0000</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="amarillo">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Salida</name>
+      <description>Salida</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <coordinates>0.791409,41.121371,267</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta</name>
+      <description>Meta</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <coordinates>0.499001,40.824104,22</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Paüls</name>
+      <description>Puerto de montaña</description>
+      <styleUrl>#verde</styleUrl>
+      <Point>
+        <coordinates>0.4018,40.9221,382</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tivenys</name>
+      <description>Sprint intermedio</description>
+      <styleUrl>#azul</styleUrl>
+      <Point>
+        <coordinates>0.510883,40.904420,12</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Els Guiamets Reservoir</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.756641,41.100820,217</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 2</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.704074,41.113761,82</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Móra la Nova</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.650397,41.099806,36</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 4</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.663441,41.069424,29</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 5</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.630273,41.039276,25</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 6</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.603687,41.002996,146</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 7</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.635254,40.978148,146</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 8</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.657454,40.932931,201</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 9</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.672423,40.898454,246</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El Perelló</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.715669,40.877400,128</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 11</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.710915,40.841410,71</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 12</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.689015,40.803100,24</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 13</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.696608,40.792167,0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 14</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.711227,40.729988,0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 15</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.69046,40.717604,0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 16</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.607911,40.703949,2</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 17</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.589370,40.708154,3</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amposta</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.579744,40.706084,8</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 19</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.525004,40.774904,3</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 20</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.506537,40.805417,5</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 21</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.522999,40.858282,12</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Som Pass</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.499953,40.930185,15</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 23</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.524735,40.980620,18</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 24</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.505087,41.013231,182</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 25</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.471329,40.999666,116</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 26</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.445262,40.959229,154</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 27</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.405823,40.925881,239</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 28</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.488812,40.909810,20</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 29</name>
+      <description>Punto anónimo</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <coordinates>0.513930,40.846612,17</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Etapa</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>0.791409,41.121371,267
+0.756641,41.100820,217
+0.704074,41.113761,82
+0.650397,41.099806,36
+0.663441,41.069424,29
+0.630273,41.039276,25
+0.603687,41.002996,146
+0.635254,40.978148,146
+0.657454,40.932931,201
+0.672423,40.898454,246
+0.715669,40.877400,128
+0.710915,40.841410,71
+0.689015,40.803100,24
+0.696608,40.792167,0
+0.711227,40.729988,0
+0.69046,40.717604,0
+0.607911,40.703949,2
+0.589370,40.708154,3
+0.579744,40.706084,8
+0.525004,40.774904,3
+0.506537,40.805417,5
+0.522999,40.858282,12
+0.499953,40.930185,15
+0.524735,40.980620,18
+0.505087,41.013231,182
+0.471329,40.999666,116
+0.445262,40.959229,154
+0.405823,40.925881,239
+0.488812,40.909810,20
+0.513930,40.846612,17
+0.499001,40.824104,22</coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

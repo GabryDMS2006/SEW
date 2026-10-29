@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Ciclista</title>
+
+    <meta name="author" content="Gabriela Dayana Montañez Suárez" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" type="image/jpg" href="multimedia/iconoWeb.jpg" />
+
+</head>
+
+<body>
+    <!-- contenido de ciclista.html  -->
+
+    <header>
+        <h1>
+            LaVuelta2026
+        </h1>
+        <nav>
+
+            <a href="index.html" title="Página inicial de la web">Inicio</a>
+            <a href="ciclista.html" title="Muestra información sobre un ciclista concreto"
+                aria-current="page">Ciclista</a>
+            <a href="equipo.html" title="Muestra información sobre un equipo completo">Equipo</a>
+            <a href="etapa.html" title="Muestra información sobre una etapa concreta">Etapa</a>
+            <a href="meteorologia.html" title="Información sobre el clima">Meteorología</a>
+            <a href="clasificaciones.html" title="Muestra las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Muestra los juegos">Juegos</a>
+            <a href="ayuda.html" title="Muestra el panel de ayuda al usuario para un mayor entendimiento">Ayuda</a>
+
+        </nav>
+    </header>
+
+    <nav>
+        <ol>
+
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-hidden="true">&gt;&gt;</li>
+            <li>Ciclista</li>
+
+        </ol>
+
+    </nav>
+
+    <main>
+
+        <h2>Francesco Busatto</h2>
+
+        <section>
+
+            <h3>Datos personales</h3>
+
+            <ul>
+                <li>Francesco Busatto</li>
+                <li>01/11/2002</li>
+                <li>Italia</li>
+                <li>ALPECIN-PREMIER TECH/BEL</li>
+                <li>102</li>
+            </ul>
+
+            <picture>
+
+                <source srcset="multimedia/Francesco_Busatto_movil.png" media="(max-width: 768px)" width="150"
+                    height="228" />
+                <source srcset="multimedia/Francesco_Busatto_tablet.png" media="(max-width: 1024px)" width="240"
+                    height="364" />
+
+                <img src="multimedia/Francesco_Busatto.png" alt="Imagen de Francesco Busatto" width="300"
+                    height="455" />
+
+            </picture>
+
+        </section>
+
+        <section>
+
+            <h3>Datos equipo</h3>
+
+            <ol>
+                <li>Alpecin-Premier Tech</li>
+                <li>Intermaché-Wanty</li>
+                <li>Circus</li>
+                <li>ReUz</li>
+                <li>Technord</li>
+                <li>General Store</li>
+                <li>Essegibi</li>
+                <li>F.Lli Curia</li>
+                <li>UC Trevigiani</li>
+                <li>Campana Imballaggi</li>
+                <li>GS Guadense Rotogal</li>
+            </ol>
+
+        </section>
+
+        <section>
+
+            <h3>Temporada 2025</h3>
+
+            <table>
+
+                <caption>Resumen de Francesco Busatto en la temporada 2025</caption>
+
+                <thead>
+
+                    <tr>
+                        <th id="datos" scope="col">Nombre del dato</th>
+                        <th id="resultados" scope="col">Resultado</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <th id="equipo" scope="row">Equipo</th>
+                        <td headers = "equipo resultados">Intermarché-Wanty</td>
+                    </tr>
+
+                    <tr>
+
+                        <td>Carreras</td>
+                        <td>10</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Victoria de etapa</td>
+                        <td>0</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Victoria de clasificación general</td>
+                        <td>0</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Podios conseguidos</td>
+                        <td>0</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Mejor puesto</td>
+                        <td>4º</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Top 10</td>
+                        <td>5</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Maillots especiales conseguidos</td>
+                        <td>0</td>
+
+                    </tr>
+
+                </tbody>
+
+
+            </table>
+
+        </section>
+
+        <section>
+
+            <h3>Multimedia</h3>
+
+            <p>Equipo <a href="https://www.lavuelta.es/es/equipo/APT/alpecin-premier-tech">Alpecin-Premier Tech</a> en la
+                Vuelta Ciclista a España 2026</p>
+
+            <video controls poster="multimedia/Alpecin-PremierTech-poster.png" width="320"> <!--426-->
+
+                <source src="multimedia/Alpecin-PremierTech_Presentation.webm" type="video/webm">
+                <source src="multimedia/Alpecin-PremierTech_Presentation.mp4" type="video/mp4">
+                Tu navegador no puede reproducir este vídeo
+
+            </video>
+
+            <audio controls>
+
+                <source src="multimedia/alpecin-premier-tech-historia.mp3" type="audio/mp3">
+                <source src="multimedia/alpecin-premier-tech-historia.wav" type="audio/wav">
+                Tu navegador no puede reproducir este audio
+
+            </audio>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Gabriela Dayana Montañez Suárez</p>
+
+        <address>
+            <a href="mailto:UO306625@uniovi.es">UO306625@uniovi.es</a>
+        </address>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0">
+  <polyline points="70.0,140.31413612565444 103.83150605885747,179.58115183246073 137.28216964800924,285.6020942408377 171.55799192152335,321.72774869109946 195.67801500288516,327.22513089005236 228.68436237738027,330.36649214659684 267.40334679746104,235.34031413612564 293.4275822273514,235.34031413612564 328.97287939988456,192.14659685863876 354.99711482977494,156.8062827225131 388.63819965377957,249.4764397905759 419.1055972302366,294.24083769633506 451.4772071552221,331.151832460733 462.26774379688396,350.0 513.0467397576456,350.0 544.7836122331217,350.0 593.6583958453549,348.42931937172773 604.4489324870167,347.64397905759165 612.7005193306404,343.717277486911 673.000577034045,347.64397905759165 704.7374495095211,346.0732984293194 755.5164454702827,340.5759162303665 798.0438545874207,340.5759162303665 806.2954414310443,338.21989528795814 882.4639353721868,335.86387434554973 920.5481823427582,207.06806282722513 945.9376803231389,258.9005235602094 984.0219272937103,229.05759162303667 1015.7587997691863,50.0 1034.8009232544719,162.30366492146595 1085.5799192152335,334.29319371727746 1136.3589151759954,336.64921465968587 1170.0,332.72251308900525" stroke="red" strokeWith="5" fill="none" />
+  <line x1="70" y1="350" x2="1170" y2="350" stroke="black" strokeWith="1" />
+  <line x1="70.0" y1="350" x2="70.0" y2="355" stroke="black" strokeWith="1" />
+  <text x="62.0" y="370" fontFamily="Arial" fontSize="11" style="">0</text>
+  <line x1="196.9474899019042" y1="350" x2="196.9474899019042" y2="355" stroke="black" strokeWith="1" />
+  <text x="188.9474899019042" y="370" fontFamily="Arial" fontSize="11" style="">20</text>
+  <line x1="323.8949798038084" y1="350" x2="323.8949798038084" y2="355" stroke="black" strokeWith="1" />
+  <text x="315.8949798038084" y="370" fontFamily="Arial" fontSize="11" style="">40</text>
+  <line x1="450.84246970571263" y1="350" x2="450.84246970571263" y2="355" stroke="black" strokeWith="1" />
+  <text x="442.84246970571263" y="370" fontFamily="Arial" fontSize="11" style="">60</text>
+  <line x1="577.7899596076168" y1="350" x2="577.7899596076168" y2="355" stroke="black" strokeWith="1" />
+  <text x="569.7899596076168" y="370" fontFamily="Arial" fontSize="11" style="">80</text>
+  <line x1="704.7374495095211" y1="350" x2="704.7374495095211" y2="355" stroke="black" strokeWith="1" />
+  <text x="696.7374495095211" y="370" fontFamily="Arial" fontSize="11" style="">100</text>
+  <line x1="831.6849394114253" y1="350" x2="831.6849394114253" y2="355" stroke="black" strokeWith="1" />
+  <text x="823.6849394114253" y="370" fontFamily="Arial" fontSize="11" style="">120</text>
+  <line x1="958.6324293133295" y1="350" x2="958.6324293133295" y2="355" stroke="black" strokeWith="1" />
+  <text x="950.6324293133295" y="370" fontFamily="Arial" fontSize="11" style="">140</text>
+  <line x1="1085.5799192152335" y1="350" x2="1085.5799192152335" y2="355" stroke="black" strokeWith="1" />
+  <text x="1077.5799192152335" y="370" fontFamily="Arial" fontSize="11" style="">160</text>
+  <line x1="1170.0" y1="350" x2="1170.0" y2="355" stroke="black" strokeWith="1" />
+  <text x="1162.0" y="370" fontFamily="Arial" fontSize="11" style="">173.3</text>
+  <line x1="70" y1="50" x2="70" y2="350" stroke="black" strokeWith="1" />
+  <line x1="65" y1="350.0" x2="70" y2="350.0" stroke="black" strokeWith="1" />
+  <text x="35" y="354.0" fontFamily="Arial" fontSize="11" style="">0</text>
+  <line x1="65" y1="271.4659685863874" x2="70" y2="271.4659685863874" stroke="black" strokeWith="1" />
+  <text x="35" y="275.4659685863874" fontFamily="Arial" fontSize="11" style="">100</text>
+  <line x1="65" y1="192.93193717277487" x2="70" y2="192.93193717277487" stroke="black" strokeWith="1" />
+  <text x="35" y="196.93193717277487" fontFamily="Arial" fontSize="11" style="">200</text>
+  <line x1="65" y1="114.39790575916228" x2="70" y2="114.39790575916228" stroke="black" strokeWith="1" />
+  <text x="35" y="118.39790575916228" fontFamily="Arial" fontSize="11" style="">300</text>
+  <line x1="65" y1="50.0" x2="70" y2="50.0" stroke="black" strokeWith="1" />
+  <text x="35" y="54.0" fontFamily="Arial" fontSize="11" style="">382.0</text>
+  <text x="55.0" y="395" fontFamily="Arial" fontSize="12" style="">Salida</text>
+  <text x="783.0438545874207" y="395" fontFamily="Arial" fontSize="12" style="">Tivenys</text>
+  <text x="990.7587997691863" y="395" fontFamily="Arial" fontSize="12" style="">Puerto de Paüls</text>
+  <text x="1155.0" y="395" fontFamily="Arial" fontSize="12" style="">Meta</text>
+  <text x="500" y="30" fontFamily="Arial" fontSize="18" style="">Falset-Costa Daurada</text>
+</svg>

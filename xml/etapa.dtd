@@ -1,0 +1,75 @@
+<!ELEMENT etapa (nombre_Etapa, num_Etapa, longitud_Etapa, fecha, tiempo_Ganador,
+velocidad_Media_Ganador, desnivel, ciudad_Inicio, ciudad_Fin, tipo_Etapa,
+referencias, fotos, videos, sonidos, lugar_Salida, lugar_Meta, hitos_Importantes, puntos_Anónimos,
+clasificacion_Etapa, clasificacion_General, clasificacion_Equipos )>
+
+<!ELEMENT nombre_Etapa (#PCDATA) >
+<!ELEMENT num_Etapa (#PCDATA)>
+
+<!ELEMENT longitud_Etapa (#PCDATA)>
+<!ATTLIST longitud_Etapa unidadLongitud CDATA #FIXED "Km">
+
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT tiempo_Ganador (#PCDATA)>
+<!ELEMENT velocidad_Media_Ganador (#PCDATA)>
+<!ATTLIST velocidad_Media_Ganador unidadVelocidadMedia CDATA #FIXED "Km/h">
+
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel unidadDesnivel CDATA #FIXED "m">
+
+<!ELEMENT ciudad_Inicio (#PCDATA)>
+<!ELEMENT ciudad_Fin (#PCDATA)>
+<!ELEMENT tipo_Etapa EMPTY>
+<!ATTLIST tipo_Etapa tipo (llana | montaña | contrarreloj_individual | contrarreloj_por_equipos | media_montaña) #REQUIRED>
+
+<!ELEMENT referencias (referencia, referencia, referencia*)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT fotos (foto, foto?, foto?, foto?, foto?)>
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT videos (video, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT sonidos (sonido, sonido?, sonido?)>
+<!ELEMENT sonido (#PCDATA)>
+
+<!ELEMENT lugar_Salida (coordenadas_geograficas)>
+<!ELEMENT lugar_Meta (coordenadas_geograficas)>
+
+<!ELEMENT coordenadas_geograficas (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidadLongitud CDATA #FIXED "grados">
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud unidadLatitud CDATA #FIXED "grados">
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidadAltitud CDATA #FIXED "m">
+
+<!ELEMENT hitos_Importantes (puerto_montaña | sprint_intermedio | sprint_bonificado)*>
+<!ELEMENT puerto_montaña (coordenadas_geograficas, distancia)>
+<!ATTLIST puerto_montaña nombre CDATA #REQUIRED>
+<!ATTLIST puerto_montaña categoria (primera | segunda | tercera | especial | bonificado) #REQUIRED>
+<!ELEMENT sprint_intermedio (coordenadas_geograficas, distancia)>
+<!ATTLIST sprint_intermedio nombre CDATA #REQUIRED>
+<!ELEMENT sprint_bonificado (coordenadas_geograficas, distancia)>
+<!ATTLIST sprint_bonificado nombre CDATA #REQUIRED>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidadDistancia CDATA #FIXED "Km">
+
+<!ELEMENT puntos_Anónimos (puntoAnónimo*)>
+<!ELEMENT puntoAnónimo (coordenadas_geograficas, distancia)>
+<!ATTLIST puntoAnónimo nombre CDATA #IMPLIED>
+
+<!ELEMENT clasificacion_Etapa (primero, segundo, tercero)>
+<!ELEMENT primero (ciclista)>
+<!ELEMENT segundo (ciclista, diferencia)>
+<!ELEMENT tercero (ciclista, diferencia)>
+<!ELEMENT ciclista (#PCDATA)>
+<!ELEMENT diferencia (#PCDATA)>
+
+<!ELEMENT clasificacion_General (primero, segundo, tercero)>
+<!ELEMENT clasificacion_Equipos (primerEquipo, segundoEquipo, tercerEquipo)>
+<!ELEMENT primerEquipo (equipo)>
+<!ELEMENT segundoEquipo (equipo, diferencia)>
+<!ELEMENT tercerEquipo (equipo, diferencia)>
+<!ELEMENT equipo (#PCDATA)>

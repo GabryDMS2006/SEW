@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Gabriela Dayana Montañez Suárez" />
+    <meta name="description" content="Documento juegos.html del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" type="image/jpg" href="multimedia/iconoWeb.jpg" />
+
+</head>
+
+<body>
+    <!-- contenido de juegos.html  -->
+
+    <header>
+        <h1>
+            LaVuelta2026
+        </h1>
+        <nav>
+
+            <a href="index.html" title="Página iincial de la web">Inicio</a>
+            <a href="ciclista.html" title="Muestra información sobre un ciclista concreto">Ciclista</a>
+            <a href="equipo.html" title="Muestra información sobre un equipo completo">Equipo</a>
+            <a href="etapa.html" title="Muestra información sobre una etapa concreta">Etapa</a>
+            <a href="meteorologia.html" title="Información sobre el clima">Meteorología</a>
+            <a href="clasificaciones.html" title="Muestra las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Muestra los juegos" aria-current="page">Juegos</a>
+            <a href="ayuda.html" title="Muestra el panel de ayuda al usuario para un mayor entendimiento">Ayuda</a>
+
+        </nav>
+    </header>
+
+    <nav>
+        <ol>
+
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-hidden="true">&gt;&gt;</li>
+            <li>Juegos</li>
+
+        </ol>
+
+    </nav>
+
+    <main>
+
+        <h2>Juegos</h2>
+
+        <h3>¿Conoces la etapa?</h3>
+
+        <p>A continuación podrás demostrar tu conocimiento sobre la quinta etapa
+            respondiendo diez preguntas sobre la misma. Puedes consultar los datos
+            en las ditintas páginas de esta web.</p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>ETAPA 5 - FALSE. COSTA DAURADA - ROQUETES. TERRES DE L'EBRE</legend>
+
+                <label for="numEtapa">Número de la etapa:</label>
+                <input id="numEtapa" name="numEtapa" type="number" min="1" max="21" required />
+
+                <label for="fechaEtapa">Fecha de la etapa:</label>
+                <input id="fechaEtapa" name="fechaEtapa" type="date" min="2026-08-22" max="2026-09-13" required />
+
+                <label for="ciudadInicio">Lugar de salida:</label>
+                <select id="ciudadInicio" name="ciudadInicio" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <!-- tus mismas opciones -->
+                </select>
+
+                <label for="ciudadFin">Lugar de llegada:</label>
+                <select id="ciudadFin" name="ciudadFin" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <!-- tus mismas opciones -->
+                </select>
+
+                <fieldset>
+                    <legend>Tipo de etapa:</legend>
+
+                    <input type="radio" id="tipo-llana" name="tipoEtapa" value="llana" />
+                    <label for="tipo-llana">Llana</label>
+
+                    <input type="radio" id="tipo-media" name="tipoEtapa" value="media" />
+                    <label for="tipo-media">Media montaña</label>
+
+                    <input type="radio" id="tipo-montaña" name="tipoEtapa" value="montaña" />
+                    <label for="tipo-montaña">Montaña</label>
+
+                    <input type="radio" id="tipo-ondulada" name="tipoEtapa" value="ondulada" />
+                    <label for="tipo-ondulada">Ondulada</label>
+
+                    <input type="radio" id="tipo-contrarreloj-individual" name="tipoEtapa" value="crIndividual" />
+                    <label for="tipo-contrarreloj-individual">Contrarreloj individual</label>
+
+                    <input type="radio" id="tipo-contrarreloj-equipos" name="tipoEtapa" value="crEquipos" />
+                    <label for="tipo-contrarreloj-equipos">Contrarreloj por equipos</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hitos presentes en la etapa:</legend>
+
+                    <input type="checkbox" id="hito-puertoMontaña" name="hitos" value="puertoMontaña" />
+                    <label for="hito-puertoMontaña">Puerto de montaña</label>
+
+                    <input type="checkbox" id="hito-categoriaEspecial" name="hitos" value="categoriaEspecial" />
+                    <label for="hito-categoriaEspecial">Puerto categoría especial</label>
+
+                    <input type="checkbox" id="hito-sprintIntermedio" name="hitos" value="sprintIntermedio" />
+                    <label for="hito-sprintIntermedio">Sprint intermedio</label>
+
+                    <input type="checkbox" id="hito-sprintBonificado" name="hitos" value="sprintBonificado" />
+                    <label for="hito-sprintBonificado">Sprint bonificado</label>
+
+                    <input type="checkbox" id="hito-ninguno" name="hitos" value="ninguno" />
+                    <label for="hito-ninguno">Sin hitos</label>
+                </fieldset>
+
+                <label for="gradoDureza">Grado de dureza:</label>
+                <input id="gradoDureza" name="gradoDureza" type="range" min="1" max="10" step="1" value="5" />
+
+                <label for="longitud">Longitud de la etapa (km):</label>
+                <input id="longitud" name="longitud" type="number" min="0" step="0.1" required />
+
+                <label for="desnivel">Desnivel acumulado de la etapa (m):</label>
+                <input id="desnivel" name="desnivel" type="number" min="0" step="1" required />
+
+                <label for="descripcion">Describe brevemente la etapa:</label>
+                <textarea id="descripcion" name="descripciones" maxlength="1000"></textarea>
+
+                <label for="nombreCliente">Introduzca su nombre:</label>
+                <input id="nombreCliente" name="nombreCliente" type="text" required />
+
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Gabriela Dayana Montañez Suárez</p>
+
+        <address>
+            <a href="mailto:UO306625@uniovi.es">UO306625@uniovi.es</a>
+        </address>
+
+    </footer>
+
+</body>
+
+</html>

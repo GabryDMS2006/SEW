@@ -1,0 +1,127 @@
+/* ***********************************************************************/
+/*             LaVuelta2026                                              */
+/*          Estilos generales                                            */
+/* ***********************************************************************/
+/*    DATOS ESTUDIANTE                                                   */
+/* ----------------------------------------------------------------------*/
+/*  Nombre y Apellidos: Gabriela Dayana Montañez Suárez                  */
+/*  Correo electrónico (uniovi):UO306625@uniovi.es                       */
+/*  Grupo de laboratorio:L4                                              */
+/* ***********************************************************************/
+
+/*
+GAMA CROMÁTICA DEL PROYECTO
+Color negro: #000000
+Color blanco: #FFFFFF
+
+Color principal (azul oscuro): #042350
+
+    Contraste de 15:42 con blanco
+    Contraste de 9.42:1 con azul claro
+
+Color secundario (azul claro): #A3CEFF
+
+    Contraste de 9.42:1 con azul oscuro
+    Contraste de 12.82:1 con negro
+
+*/
+
+/* Especificidad 010*/
+:root {
+
+    --color-principal: #042350;
+    --color-secundario: #A3CEFF;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/* Especificidad 001*/
+body{
+
+    font-family: Futura, Geneva, sans-serif;
+    background-color: var(--color-blanco);
+    color:var(--color-negro);
+}
+
+/* Especificidad 001, 001 */
+header, footer {
+
+    background-color: var(--color-secundario);
+    color:var(--color-principal);
+}
+
+/* Especificidad 001, 001, 001, 001, 001, 001 */
+h1,h2,h3,h4,h5,h6{
+
+    color:var(--color-principal);
+
+}
+
+/* Especificidad: 002, 002*/
+
+header a, footer a {
+
+    color: var(--color-principal); /*Advertencia color de fonde de
+    header y footer --color-secundario */
+
+    text-decoration-line: none;
+
+}
+
+/* Especificidad 001 */
+
+h1 a {
+
+    color : var(--color-principal);
+    text-decoration-line: none; 
+
+}
+
+/* Especificidad 012 */
+
+nav a[aria-current="page"] {
+    
+    font-weight: bold;
+    color: #042350;
+    background-color: #ffffff;
+}
+
+/* Especificidad 003 */
+
+header + nav > ol {
+
+    list-style: none;  
+    font-size: 0.85em;
+}
+
+/* Especificidad 004 */
+
+header + nav > ol > li {
+    display: inline; 
+}
+
+/* Especificidad 014 */
+
+header + nav > ol > li:last-child {
+    
+    font-weight: bold;
+}
+
+/* Especificidad 001*/
+table {
+
+    border-collapse: collapse;
+}
+
+/*Especificidad: 001, 001*/
+th, td {
+    border: 1px solid var(--color-principal);
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+/*Especificidad: 011*/
+th[scope="col"] {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
